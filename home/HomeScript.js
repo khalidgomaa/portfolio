@@ -1,7 +1,7 @@
  let title        = document.querySelector(".title");
 
 // auto writing title
-let mytitle = "Front End Developer ";
+let mytitle = "E-Commerce Website ";
 let index = 1;
 setInterval(
   function () {
@@ -11,4 +11,4 @@ setInterval(
     // clearInterval(yy) ده لو عايز اول ما اعمل ريفريش او اول ما افتح الموقع يكتبها مره واحده ويقف
       index = 1;
     }
-  }, 100);
+  }, 300);

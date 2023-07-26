@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="./form validation/upstyle.css">
+</head>
+<body>
+  <header>
+    <h1>sign-in</h1>
+  </header>
+  
+  <div class="container">
+      
+          <form id="form"  >
+
+            <!-- related to username -->
+        <div class="parent_input">
+          <label  for="username">Username Name</label>
+          <input id="username" placeholder="Please Enter Your Name" type="text"  >
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>successful</small>
+        
+        </div>
+       <br>
+ 
+      
+
+   
+         <!-- related to  Password-->
+         <div class="parent_input ">
+    <label  for="password">Password</label>
+    <input id="password" placeholder="Please Enter Your Password" type="password"  >
+    <i class="fa-solid fa-circle-check"></i>
+    <i class="fa-solid fa-circle-exclamation"></i>
+    <small>successful</small>
+  </div>
+ <br>
+
+         <!-- related to  Confirm Password-->
+ 
+         <div class="parent_input  " >
+  <label  for="confpassword">Confirm Password</label>
+  <input id="confpassword" placeholder="Please Enter Your Password Again" type="password"  >
+  <i class="fa-solid fa-circle-check"></i>
+  <i class="fa-solid fa-circle-exclamation"></i>
+  <small>successful</small>
+</div>
+<br>
+     
+         <!-- related to  buttons submit & reset-->
+       
+       <div>
+         <input class="btn" id="submit" type="submit" value="Submit">
+         
+       </div>
+      </form>
+       
+      </div>
+<script src="sign-in.js"></script>
+</body>
+</html>
