@@ -10,12 +10,13 @@
     scroll-behavior: smooth;
 }
 body{
-background-color: rgb(126, 97, 58);
+background-color: rgb(134, 83, 15);
 }
 
 /* header's css details */
 header{
-  background-color: rgb(235, 218, 195);
+  background-color: hsla(34, 80%, 54%, 0.2);
+
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
@@ -26,6 +27,7 @@ align-items: center;
 padding: 10px 50px;
 position: fixed;
 z-index: 50;
+border-radius: 30px 10px;
 }
 .logo{
   font-weight: 900;
@@ -35,12 +37,13 @@ z-index: 50;
   color: #3706be;
   font-style: italic;
  
+ 
 }
 nav{
   width: 40%;
   display: flex;
   justify-content: space-between;
-  
+
 
   
 }
@@ -49,6 +52,7 @@ nav{
   font-size: 1.1em;
 color: #1f2520;
 padding: 3px;
+
 
 }
 .navbar a:hover{
